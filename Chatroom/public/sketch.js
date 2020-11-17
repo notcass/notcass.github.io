@@ -5,7 +5,7 @@ let input;
 let totalMessages = [];
 
 function setup() {
-  socket = io.connect('http://localhost:3000');
+  socket = io.connect('http://notcass.github.io:3000');
   socket.on('msg', newMsg);
   username = createInput('').parent('sketch-holder').size(100, 25);
   input = createInput('').parent('sketch-holder').size(300, 25);
