@@ -1,0 +1,100 @@
+p.title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+p {
+  margin: 5px;
+  font-size: 22px;
+  color: white;
+}
+
+html,
+body {
+  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+    'Helvetica Neue', sans-serif;
+}
+
+canvas {
+  display: block;
+}
+
+#sketch-holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+a:link {
+  font-style: bold;
+  color: #00ccff;
+  font-size: 28px;
+}
+
+a:visited {
+  font-style: bold;
+  font-size: 28px;
+  color: #00ccff;
+}
+
+.btn {
+  display: block;
+  background: none;
+  color: white;
+  font-size: 18px;
+  position: relative;
+  border: 3px solid white;
+  padding: 10px 25px;
+  margin: 4px 20px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition-property: background, transform;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in;
+  outline: none;
+}
+
+.btn:hover {
+  background: dodgerblue;
+  transform: scale(1.25);
+}
+
+.btn:active {
+  background: black;
+  transform: scale(0.8);
+}
+
+/* #chatroom {
+  background-color: #1c1c1c;
+  margin: auto;
+  position: relative; */
+/* width: 100vw; */
+/* height: 100vw; */
+/* width: 1000px;
+  height: 500px;
+} */
+
+#chatroom {
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  width: 1000px;
+  height: 500px;
+  background-color: #111;
+  background-repeat: repeat;
+  font-size: 22px;
+  padding: 15px;
+}
+
+.username {
+  color: dodgerblue;
+}
+.msg {
+  color: white;
+}
